@@ -41,4 +41,4 @@ a) Após desenvolver o código, ou após o trabalho do dia digite:
 3) git push para enviar as mudanças do repositório local para o repositório remoto;
 
 Atenção:
- O comando git pull - BAIXA TODAS AS MODIFICAÇÕES DO REPOSITÓRIO REMOTO PARA O REPOSITÓRIO LOCAL, porém, antes de usar o: git pull, utilize o comando: git fetch, e depois: git diff origin/master  para listar todas as diferenças entre o repositório local e o repositório remoto.
+ O comando git pull - BAIXA TODAS AS MODIFICAÇÕES DO REPOSITÓRIO REMOTO PARA O REPOSITÓRIO LOCAL, porém, antes de usar o: git pull, utilize o comando: git fetch, e depois: git diff origin/master  para listar todas as diferenças entre o repositório local e o repositório remoto. Se a qualquer momento o prompt no terminal do VS code ficar travado, aperte a tecla "Q", que será destravado.
