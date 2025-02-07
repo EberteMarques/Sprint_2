@@ -10,6 +10,9 @@
     box-sizing: border-box;
     letter-spacing: 1px; 
 }
+p{
+    padding-bottom: 20px;
+}
 ul li{
     margin-bottom: 2rem;
 }
