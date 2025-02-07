@@ -4,11 +4,11 @@
 /* */
 
 *{
-    font-family: 'Inter', sans-serif;/* para alterar todas as fontes do projeto*/
-    margin: 0;/* retira a margem*/
-    padding: 0;/* */
-    box-sizing: border-box;/* tudo que é aplicado no objeto filho não ultrapassa o objeto pai */
-    letter-spacing: 1px; /*mudando o espaçamento de cada letra: */
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px; 
 }
 ul li{
     margin-bottom: 2rem;
@@ -33,17 +33,14 @@ header{
     height: 15vh;
     width: 100%;
     background-color: blue;
-    overflow: hidden; /*permite que o objeto que está atrás passe para frente */
+    overflow: hidden; 
 }
 
-/* para definir a cor que irá aparecer quando passar o mouse por cima :hover, NÃO COLOQUE ESPAÇO ENTRE O OBJETO/CLASSE E O COMANDO HOVER*//* QUANDO COLOCA UMA CLASSE/OBJETO APÓS O HOVER GARANTE QUE O BOTÃO RELACIONADO CONTINUE SELECIONADO COM A COR QUE VOCÊ ESOLHEU*/
-
-
 .header-link{
-    color: white; /* define a cor de fundo dos objetos */
-    padding: 50px; /* define a altura e largura dos objetos*/
+    color: white; 
+    padding: 50px; 
     text-decoration: none;
-    text-align: center; /*alinha o texto no centro do bloco */
+    text-align: center; 
     float: right;
 }
 
@@ -113,7 +110,7 @@ main section{
 
 
 footer{
-    width: 100%; /*definindo a largura do footer, neste caso 100% */
+    width: 100%; 
     color: white;
 }
 
@@ -122,48 +119,46 @@ footer{
     text-decoration: none;
 }
 #footer_content{
-    background-color: blue;/* escolhedo a cor de fundo de todo o footer*/
+    background-color: blue;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     padding: 0.5rem 0.5rem;
-       /* para distribuir os intens em colunas, nesse exemplo vamos fazer 4 colunas: display: grid;
-    grid-template-columns: repeat(4,1fr*/
     align-items: center;
 
 }
-#input_group{/*com esse comando você define em qual posição quer colocar cada elemento, nesse caso, o local para escrever o email foi escolhido na linha "2" da coluna "4"*/
+#input_group{
     grid-row: 2;
     grid-column:4;
 
 }
 
 #logo {
-    margin-bottom: 0.75; /*adiciona espaço abaixo do objeto, neste caso "h1"*/
+    margin-bottom: 0.75; 
     text-align: justify;
 }
 
 #footer_social_media {
     display:flex;
-    gap: 2rem; /*cira um espaçamento entre os objetos*/
-    margin-top: 1.5rem; /*cria um espaçamento na parte superior do objeto*/
+    gap: 2rem;
+    margin-top: 1.5rem; 
 }
 
 #footer_social_media .footer_link {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 2.5rem;/*altera a altura da caixa onde o objeto está inserido*/
-    width: 2.5rem; /*altera a largura da caixa onde o objeto está inserido*/
+    height: 2.5rem;
+    width: 2.5rem; 
     color: white;
-    border-radius: 50%;/*utilizado para aredondar as bordas*/
-    transition: all 0.4s; /*utilizado para diminuir a transição de "opacyt" quando o mouse passar por cima*/
+    border-radius: 50%;
+    transition: all 0.4s; 
 }
 
 #footer_social_media .footer_link:hover{
-    opacity: 0.8;/*utilizado para criar uma transição de cores quando o mouse passar por cima do objeto*/
+    opacity: 0.8;
 }
 
-#footer_social_media .footer_link i{ /* definindo tamanhos iguais de todos os ícones*/
+#footer_social_media .footer_link i{ 
     font-size: 1,25rem;
 }
 #instagram{
@@ -178,18 +173,18 @@ footer{
 }
 
 .footer-list{
-    display: flex;/* faz com que os objetos tenham comportamento de linha*/
-    flex-direction: column; /*coloca os item em colunas*/
-    gap: 0.75rem; /*determina um espaçamento entre os objetos*/
-    list-style: none; /*retira os marcadores de uma lista*/
+    display: flex;
+    flex-direction: column; 
+    gap: 0.75rem; 
+    list-style: none; 
     
 }
 
 .footer-list .footer_link{
-    color: gray;/*define a cor do objeto*/
+    color: gray;
     transition: all 0.4s;
 }
-.footer-list .footer_link:hover{ /*define uma cor quando o mouse passa por cima*/
+.footer-list .footer_link:hover{ 
     color: black;
 }
 
@@ -214,7 +209,7 @@ footer{
 
 }
 #input_group input{
-    all: unset;/*retira toda custumisação padrão*/
+    all: unset;
     padding: 0.75rem;
     width: 100%;
 }
