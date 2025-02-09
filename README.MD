@@ -1,12 +1,12 @@
 # Desenvolvimento de um site como requisito para aprovação na disciplina projetos-1.
 
-#1 - Baixar o programa git, basta pesquisar no google
+#  1 - Baixar o programa git, basta pesquisar no google
 
-#2 - crie no seu computador uma pasta onde será desenvolvido o seu projeto, abra a pasta com o programa "VS Code"
+#  2 - crie no seu computador uma pasta onde será desenvolvido o seu projeto, abra a pasta com o programa "VS Code"
 
-#3 - Para escolher o nome de usuário que irá aparecer em seus porjeto. Acesse a linha de comando do "VS code" - TERMINAL -, e digite a seguinte linha de código: git config --global user.name "aqui você digita o nome que você escolheu" depois aperte o botão ENTER,  se tudo ocorrer bem, o sistema não retornará nenhuma mensagem
+#  3 - Para escolher o nome de usuário que irá aparecer em seus porjeto. Acesse a linha de comando do "VS code" - TERMINAL -, e digite a seguinte linha de código: git config --global user.name "aqui você digita o nome que você escolheu" depois aperte o botão ENTER,  se tudo ocorrer bem, o sistema não retornará nenhuma mensagem
 
-#4 - Para configurar o endereço de email associado a sua conta. Acesse a linha de comando do "VS code" - TERMINAL -, e digite a seguite linha de código: git config --global user.emal seu-email@email.com ,  aperte o botão ENTER,  se tudo ocorrer bem, o sistema não retornará nenhuma mensagem
+#  4 - Para configurar o endereço de email associado a sua conta. Acesse a linha de comando do "VS code" - TERMINAL -, e digite a seguite linha de código: git config --global user.emal seu-email@email.com ,  aperte o botão ENTER,  se tudo ocorrer bem, o sistema não retornará nenhuma mensagem
 
 # 5 - PARA BAIXAR UM REPOSITÓRIO QUALQUER PARA O SEU COMPUTADOR
 
@@ -50,5 +50,5 @@ Atenção:
 
 
 # 9 - Como fazer uma merge =  juntar o conteúdo da branch principal com a branch recém criada.
-a) Primeira coisa a vazer é mudar para a branch que irá receber os dados geralmente a branch principal é a main/master, use o comando, no prompt de comando - terminal- do VS code digite checkout e o nome da branch que irá receber as atualizações: git checkout <main>;
-b) No terminal do VS code digite o comando merge e o nome da branch onde contém as informações que serão adicionadas à main: git merge<nome da branch>
+a) Primeira coisa a vazer é mudar para a branch que irá receber os dados geralmente a branch principal é a main/master, use o comando, no prompt de comando - terminal- do VS code digite checkout e o nome da branch que irá receber as atualizações: git checkout < main >;
+b) No terminal do VS code digite o comando merge e o nome da branch onde contém as informações que serão adicionadas à main: git merge < nome da branch >.
