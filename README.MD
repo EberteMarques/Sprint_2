@@ -1,12 +1,12 @@
 # Desenvolvimento de um site como requisito para aprovação na disciplina projetos-1.
 
-#1 - Baixar o programa git, basta pesquisar no google
+# 1 - Baixar o programa git, basta pesquisar no google.
 
-#2 - crie no seu computador uma pasta onde será desenvolvido o seu projeto, abra a pasta com o programa "VS Code"
+# 2 - crie no seu computador uma pasta onde será desenvolvido o seu projeto, abra a pasta com o programa "VS Code".
 
-#3 - Para escolher o nome de usuário que irá aparecer em seus porjeto. Acesse a linha de comando do "VS code" - TERMINAL -, e digite a seguinte linha de código: git config --global user.name "aqui você digita o nome que você escolheu" depois aperte o botão ENTER,  se tudo ocorrer bem, o sistema não retornará nenhuma mensagem
+# 3 - Para escolher o nome de usuário que irá aparecer em seus porjeto. Acesse a linha de comando do "VS code" - TERMINAL -, e digite a seguinte linha de código: git config --global user.name "aqui você digita o nome que você escolheu" depois aperte o botão ENTER,  se tudo ocorrer bem, o sistema não retornará nenhuma mensagem.
 
-#4 - Para configurar o endereço de email associado a sua conta. Acesse a linha de comando do "VS code" - TERMINAL -, e digite a seguite linha de código: git config --global user.emal seu-email@email.com ,  aperte o botão ENTER,  se tudo ocorrer bem, o sistema não retornará nenhuma mensagem
+# 4 - Para configurar o endereço de email associado a sua conta. Acesse a linha de comando do "VS code" - TERMINAL -, e digite a seguite linha de código: git config --global user.emal seu-email@email.com ,  aperte o botão ENTER,  se tudo ocorrer bem, o sistema não retornará nenhuma mensagem.
 
 # 5 - PARA BAIXAR UM REPOSITÓRIO QUALQUER PARA O SEU COMPUTADOR
 
@@ -40,5 +40,15 @@ a) Após desenvolver o código, ou após o trabalho do dia digite:
 2) git commit -m "digite uma mensagem, geralmente a mensagem se refere a alteração que voçê fez", para salvar as mudanças no seu repositório local;
 3) git push para enviar as mudanças do repositório local para o repositório remoto;
 
+# 8 - Como criar uma nova branch - RAMIFICAÇÃO
+
+a) no terminal do VS code digite: git checkout -b <branch name> - se tudo ocorrer bem uma nova branch será criada e todos os arquivos da branch principal serão copiados para sua nova branch. No canto inferior esquerdo da interace "tela" do Vs code deve aárecer o nome da branch cirada.
+
+
 Atenção:
  O comando git pull - BAIXA TODOS OS ARQUIVOS DO REPOSITÓRIO REMOTO PARA O REPOSITÓRIO LOCAL - BAIXA E SUBSTITUI A PASTA DO SEU COMPUTADOR PARA A PASTA QUE ESTÁ DO GITHUB -, porém, antes de usar o: git pull, utilize o comando: git fetch, e depois: git diff origin/master  para listar todas as diferenças entre o repositório local e o repositório remoto. Se a qualquer momento o prompt do terminal do "VS code" ficar travado, aperte a tecla "Q", que será destravado.
+
+
+# 9 - Como fazer uma merge =  juntar o conteúdo da branch principal com a branch recém criada.
+a) Primeira coisa a vazer é mudar para a branch que irá receber os dados geralmente a branch principal é a main/master, use o comando, no prompt de comando - terminal- do VS code digite checkout e o nome da branch que irá receber as atualizações: git checkout <main>;
+b) No terminal do VS code digite o comando merge e o nome da branch onde contém as informações que serão adicionadas à main: git merge<nome da branch>
